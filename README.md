@@ -3,17 +3,17 @@
 Cree los siguientes modelos
 
 * Bodega:
-  *  ID
-  *  ProductID
-  *  Cantidad
+  * ID
+  * ProductID
+  * Cantidad
 * Venta:
-  *  ID
-  *  ProductID
-  *  Cantidad
+  * ID
+  * ProductID
+  * Cantidad
 * Compra:
-  *  ID
-  *  ProductID
-  *  Cantidad
+  * ID
+  * ProductID
+  * Cantidad
 
 ```shell
 php artisan make:model Bodega --all
@@ -21,7 +21,7 @@ php artisan make:model Venta --all
 php artisan make:model Compra --all
 ```
 
-Edite la migracion y el modelo. No necesitamos seeder ni factory.
+Edite la migracion y el modelo. No necesitamos seeder,controlador,route, ni factory.
 
 Cree una clase Repo llamada:
 
