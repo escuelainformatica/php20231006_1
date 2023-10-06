@@ -21,7 +21,9 @@ php artisan make:model Venta --all
 php artisan make:model Compra --all
 ```
 
-Edite la migracion y el modelo. No necesitamos seeder,controlador,route, ni factory.
+* Cree una base de datos vacio (cree un archivo vacio en database\database.sqlite)
+
+* Edite la migracion y el modelo. No necesitamos seeder,controlador,route, ni factory.
 
 Cree una clase Repo llamada:
 
