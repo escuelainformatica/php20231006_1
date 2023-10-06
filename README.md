@@ -15,11 +15,11 @@ Cree los siguientes modelos
   *  ProductID
   *  Cantidad
 
-´´´shell
+```shell
 php artisan make:model Bodega --all
 php artisan make:model Venta --all
 php artisan make:model Compra --all
-´´´
+```
 
 Edite la migracion y el modelo. No necesitamos seeder ni factory.
 
